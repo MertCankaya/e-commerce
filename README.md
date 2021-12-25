@@ -16,8 +16,8 @@ https://rapidapi.com/apidojo/api/kohls/
 ![step1](https://user-images.githubusercontent.com/86437425/147394771-54ca027a-5c0b-4beb-bc33-e573194127d7.png)
 ![step2](https://user-images.githubusercontent.com/86437425/147394772-c9a51580-7854-47b8-898c-856e9a705425.png)
 ![step3](https://user-images.githubusercontent.com/86437425/147395216-ebc14e4b-e3d7-4dac-82a4-a73e3cbb91fd.png)
-Make sure javascript fetch is selected.
-
+##### Make sure javascript fetch is selected.
+##### Some products in the main section may not work due to Apikey difference.
 ### Images from the web-site
 
 ![Screenshot from 2021-12-26 01-52-56](https://user-images.githubusercontent.com/86437425/147395031-8f0e38dd-9801-47ac-8f95-0a2592b7a1b4.png)
