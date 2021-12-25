@@ -15,7 +15,8 @@ https://rapidapi.com/apidojo/api/kohls/
 
 ![step1](https://user-images.githubusercontent.com/86437425/147394771-54ca027a-5c0b-4beb-bc33-e573194127d7.png)
 ![step2](https://user-images.githubusercontent.com/86437425/147394772-c9a51580-7854-47b8-898c-856e9a705425.png)
-![step3](https://user-images.githubusercontent.com/86437425/147394774-6bbc1435-8fce-465e-8dc1-4ad303d5c2ce.png)
+![step3](https://user-images.githubusercontent.com/86437425/147395216-ebc14e4b-e3d7-4dac-82a4-a73e3cbb91fd.png)
+Make sure javascript fetch is selected.
 
 ### Images from the web-site
 
