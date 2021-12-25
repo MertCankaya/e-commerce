@@ -1,0 +1,47 @@
+.orderShow__info {
+  display: flex;
+  margin-bottom: 0.1rem;
+  background-color: #30415d;
+  padding: 1.2rem;
+  color: whitesmoke;
+}
+
+.orderShow__detail {
+  margin-left: 1.6rem;
+}
+
+.orderShow__detail > h2 {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+.orderShow__detail > h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 48rem) {
+  .orderShow {
+    padding-bottom: 0rem;
+  }
+
+  .orderShow__container {
+    width: 100%;
+    padding-bottom: 0rem;
+  }
+
+  .orderShow__info {
+    margin-bottom: 0.1rem;
+  }
+
+  .orderShow__detail {
+    font-size: 0.7rem;
+  }
+  .orderShow__detail > h2 {
+    font-size: 0.7rem;
+  }
+
+  .orderShow__detail > h3 {
+    font-size: 0.6rem;
+  }
+}

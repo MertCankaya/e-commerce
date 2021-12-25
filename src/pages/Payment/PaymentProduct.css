@@ -1,0 +1,62 @@
+.paymentProduct__container {
+  display: flex;
+  margin-top: 1.3rem;
+}
+
+.paymentProduct__info {
+  margin-left: 1.7rem;
+}
+
+.paymentProduct__info__title {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.paymentProduct__info > h4 {
+  color: whitesmoke;
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 105rem) {
+  .paymentProduct__info {
+    margin-left: 1.2rem;
+  }
+  .paymentProduct__info__title {
+    font-size: 1rem;
+  }
+  .paymentProduct__info > h4 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 75rem) {
+  .paymentProduct__info {
+    margin-left: 1rem;
+  }
+  .paymentProduct__info > h3 {
+    font-size: 0.7rem;
+  }
+  .paymentProduct__info > h4 {
+    font-size: 0.7rem;
+  }
+  .paymentProduct__container > img {
+    height: 9.6rem;
+  }
+}
+
+@media only screen and (max-width: 48rem) {
+  .paymentProduct__info {
+    margin-left: .7rem;
+  }
+  .paymentProduct__info > h3 {
+    font-size: 0.7rem;
+  }
+  .paymentProduct__info > h4 {
+    font-size: 0.7rem;
+  }
+  .paymentProduct__container > img {
+    height: 9rem;
+  }
+
+}

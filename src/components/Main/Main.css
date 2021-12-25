@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main__container {
+  width: 75%;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .popularProduct__title {
+    font-size: 0.75rem;
+  }
+  .main__container{
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+.main__container {
+  width: 100%;
+}
+}
+

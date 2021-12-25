@@ -1,0 +1,54 @@
+.product {
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+
+.product__container {
+  display: flex;
+  padding: 1.5rem;
+  margin-top: 3.5rem;
+  border-bottom: 0.1rem solid #30415d;
+  color: #031424;
+}
+
+.product__container:hover {
+  background-color: #30415d;
+  color: whitesmoke;
+}
+
+.product__container:active {
+  background-color: #031424;
+}
+
+.product__link {
+  text-decoration: none;
+}
+
+.product__image {
+  padding: 1rem;
+  padding-bottom: 3.5rem;
+  height: 14rem;
+  width: 14rem;
+  margin-right: 1.4rem;
+  outline: 0.1rem solid #30415d;
+}
+
+.product__price {
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 48rem) {
+  .product {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  
+  .product__info > h3 {
+    font-size: .5rem;
+  }
+}
+.product__image{
+ height: 12rem;
+}

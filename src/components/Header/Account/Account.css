@@ -1,0 +1,51 @@
+.account {
+  height: 100%;
+  width: 5.4rem;
+  background-color: #031424;
+}
+
+.account:hover {
+  outline: 0.1rem solid whitesmoke;
+  cursor: pointer;
+}
+
+.account:active {
+  background-color: #cf6766;
+}
+
+.account__userName {
+  color: white;
+}
+
+.account__login {
+  font-size: 1.1rem;
+  color: whitesmoke;
+}
+
+@media only screen and (max-width: 64rem) {
+  .account {
+    width: 4rem;
+    height: 100%;
+  }
+  .account__login {
+    font-size: 0.8rem;
+  }
+  .account__userName {
+    font-size: 0.7rem;
+  }
+}
+
+
+@media only screen and (max-width: 48rem) {
+  .account {
+    width: 2rem;
+    height: 80%;
+    margin-bottom: .75rem;
+  }
+  .account__login {
+    font-size: 0.4rem;
+  }
+  .account__userName {
+    font-size: 0.3rem;
+  }
+}

@@ -1,0 +1,22 @@
+.mainProduct {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: chocolate;
+  padding: 1.2rem;
+}
+
+.mainProduct__mainTitle {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.mainProduct__image {
+  height: 17rem;
+}
+
+.mainProduct__title {
+  margin-top: 1.4rem;
+  font-size: 1.2rem;
+}

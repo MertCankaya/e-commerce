@@ -1,0 +1,96 @@
+.popularProduct__image {
+  height: auto;
+  width: 100%;
+}
+
+.popularProduct__button {
+  background-color: #031424;
+  padding: 1.3rem;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  width: 12.5rem;
+}
+
+.popularProduct__button:hover {
+  cursor: pointer;
+  background-color: #cf6766;
+}
+
+.popularProduct__button:active {
+  background-color: #031424;
+}
+
+.popularProduct__title {
+  color: whitesmoke;
+  padding-top: 0.6rem;
+}
+
+.popularProduct__price {
+  color: whitesmoke;
+  padding-top: 0.3rem;
+}
+
+@media only screen and (max-width: 108rem) {
+  .popularProduct__title {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 97rem) {
+  .popularProduct__title {
+    font-size: 0.67rem;
+  }
+}
+
+@media only screen and (max-width: 80rem) {
+  .popularProduct__title {
+    font-size: 0.6rem;
+  }
+  .popularProduct__price {
+    font-size: 0.8rem;
+  }
+
+  .popularProduct__button {
+    padding: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 75rem) {
+  .popularProduct__title {
+    font-size: 0.5rem;
+  }
+
+  .popularProduct__button {
+    padding: 0.57rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+  }
+}
+
+@media only screen and (max-width: 64rem) {
+ 
+  .popularProduct__price {
+    font-size: 0.65rem;
+  }
+
+  .popularProduct__button {
+    padding: 0.46rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 48rem) {
+  .popularProduct__title {
+   display: none; 
+  }
+  .popularProduct__price {
+    font-size: 0.5rem;
+  }
+  .popularProduct__button {
+    padding: 0.3rem;
+  }
+  .popularProduct__image{
+    margin-bottom: -.4rem;
+  }
+}

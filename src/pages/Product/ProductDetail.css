@@ -1,0 +1,152 @@
+.productDetail__container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 5rem;
+}
+
+.productDetail__container > img {
+  height: 30rem;
+}
+
+.productDetail__info {
+  margin-left: 15rem;
+}
+
+.productDetail__title {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.productDetail__price {
+  margin-bottom: 0.3rem;
+  font-size: 1.7rem;
+}
+
+.productDetail__send {
+  margin-top: 11rem;
+}
+
+.productDetail__button {
+  margin-top: 4.5rem;
+  padding: 2rem;
+  width: 17rem;
+  font-size: 3rem;
+  background-color: #30415d;
+  color: whitesmoke;
+  border-radius: 0.3rem;
+}
+
+.productDetail__button:hover {
+  background-color: #031424;
+  cursor: pointer;
+}
+
+.productDetail__button:active {
+  background-color: #30415d;
+}
+
+.productDetail__error {
+  margin-left: -15rem;
+  margin-top: 10rem;
+  font-size: 4rem;
+}
+
+.productDetail__container img {
+  padding: 0rem;
+  outline: 0.14rem solid #30415d;
+}
+
+@media only screen and (max-width: 75rem) {
+  .productDetail__container {
+    justify-content: center;
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+
+  .productDetail__container > img {
+    height: 20rem;
+  }
+
+  .productDetail__info {
+    margin-left: 9rem;
+  }
+
+  .productDetail__button {
+    margin-top: -10rem;
+    padding: 1rem;
+    width: 12rem;
+    font-size: 1.5rem;
+  }
+
+  .productDetail__title {
+    font-size: 1.3rem;
+  }
+
+  .productDetail__price {
+    font-size: 1.2rem;
+  }
+
+  .productDetail__error {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 64rem) {
+  .productDetail__info {
+    margin-left: 5rem;
+  }
+}
+
+@media only screen and (max-width: 48rem) {
+  .productDetail__container {
+    width: 100%;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .productDetail__container > img {
+    height: 8rem;
+  }
+
+  .productDetail__info {
+    margin-left: 1.2rem;
+  }
+
+  .productDetail__title {
+    margin-bottom: 2rem;
+    font-size: 0.6rem;
+    width: 8rem;
+    word-break: break-all;
+    white-space: normal;
+  }
+
+  .productDetail__price {
+    font-size: 0.76rem;
+  }
+
+  .productDetail__rating {
+    font-size: 0.65rem;
+  }
+
+  .productDetail__button {
+    margin-top: -15rem;
+    margin-left: -8rem;
+    padding: 1rem;
+    width: 6rem;
+    font-size: 1rem;
+  }
+
+  .productDetail__error {
+    margin-left: 0rem;
+    margin-top: 8rem;
+    font-size: 1.2rem;
+  }
+
+  .productDetail__container img {
+    padding: 0rem;
+  }
+}

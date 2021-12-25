@@ -1,0 +1,49 @@
+.orders__detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.orders__container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0rem;
+  margin-left: 0rem;
+  margin-top: 3.4rem;
+}
+
+.orders__container__wrapper {
+  width: 60rem;
+}
+
+.orders__container__title {
+  font-size: 2.7rem;
+}
+
+
+@media only screen and (max-width: 64rem) {
+  .orders__container__wrapper {
+    width: 40rem;
+  }
+
+  .orders__container__title {
+    font-size: 1.8rem;
+    margin-left: 1rem;
+  }
+}
+
+
+@media only screen and (max-width: 48rem) {
+  .orders__container__wrapper {
+    width: 18rem;
+  }
+
+  .orders__container__title {
+    margin-top: -1rem;
+    font-size: 1.8rem;
+    margin-left: 0rem;
+    margin-bottom: -.6rem;
+  }
+}
+
+

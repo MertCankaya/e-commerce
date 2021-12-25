@@ -1,0 +1,53 @@
+.login__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.login__container > img {
+  height: 12rem;
+  width: 11rem;
+  margin-bottom: 4.5rem;
+}
+
+.login__container > button {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  padding: 1.3rem;
+  background-color: black;
+  border-radius: 0.3rem;
+  color: whitesmoke;
+  background-color: #30415d;
+}
+
+.login__container > button:hover {
+  cursor: pointer;
+  background-color: #031424;
+}
+
+.login__container > button:active {
+  background-color: #30415d;
+}
+
+.login__googleLogo {
+  height: 2.7rem;
+  margin-left: 1.5rem;
+}
+
+
+
+@media only screen and (max-width: 48rem) {
+  .login__container > img {
+    height: 8rem;
+    width: 7rem;
+  }
+  
+  .login__container > button {
+    font-size: 1rem;
+    padding: 1.1rem;
+  }.login__googleLogo {
+    height: 2.2rem;
+  }
+}

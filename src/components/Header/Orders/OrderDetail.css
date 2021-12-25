@@ -1,0 +1,65 @@
+.orderDetail {
+  display: flex;
+  align-items: center;
+  background-color: #30415d;
+  padding: 2rem 2rem 1.4rem 2rem;
+  border-radius: 0.3rem;
+  margin-top: 2rem;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}
+
+.orderDetail:hover {
+  background-color: #031424;
+}
+
+.orderDetail__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.orderDetail__container > div > h3 {
+  font-size: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+.orderDetail__container > h3 {
+  font-size: 2.2rem;
+}
+
+@media only screen and (max-width: 48rem) {
+  .orderDetail__container > h3 {
+    font-size: 1.1rem;
+  }
+  .orderDetail__container > div > h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.6rem;
+  }
+}
+
+
+@media only screen and (max-width: 64rem) {
+    .orderDetail__container > h3 {
+      font-size: 1.1rem;
+    }
+    .orderDetail__container > div > h3 {
+      font-size: 1.2rem;
+      margin-bottom: 1.6rem;
+    }
+  }
+  
+  @media only screen and (max-width: 48rem) {
+    .orderDetail__container > h3 {
+      font-size: .8rem;
+    }
+    .orderDetail__container > div > h3 {
+      font-size: .8rem;
+      margin-bottom: 1.6rem;
+    }
+    .orderDetail{
+      margin-bottom: -1.1rem;
+    }
+  }
+  

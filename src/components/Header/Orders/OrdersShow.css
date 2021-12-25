@@ -1,0 +1,171 @@
+.ordersShow__container {
+  margin-top: 2.3rem;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 3rem;
+}
+
+.ordersShow__detail {
+  display: flex;
+  justify-content: space-between;
+  background-color: #30415d;
+  padding: 1.5rem;
+}
+
+.ordersShow__orderDetails__title {
+  font-size: 2.5rem;
+  margin-bottom: 1.8rem;
+}
+
+.ordersShow__detail__left {
+  display: flex;
+  width: 65%;
+}
+
+.ordersShow__detail__left__info {
+  color: whitesmoke;
+  margin-right: 7rem;
+}
+
+.ordersShow__detail__left__info span {
+  font-size: 1.4rem;
+}
+
+.ordersShow__detail__left__info > h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.ordersShow__detail__left__info__phone {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.ordersShow__detail__left__info__address {
+  word-break: break-all;
+  white-space: normal;
+}
+
+.ordersShow__detail__left__info > h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.ordersShow__detail__right > h3 {
+  color: whitesmoke;
+  font-size: 2rem;
+  margin-bottom: 1.4rem;
+  text-decoration: underline;
+}
+
+.ordersShow__detail__right > div {
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ordersShow__detail__right__subtotal {
+  margin-right: 5rem;
+  margin-bottom: 0.8rem;
+}
+
+.ordersShow__detail__right > div > h3 {
+  font-size: 1.3rem;
+}
+
+.ordersShow__product {
+  margin-top: 2rem;
+  padding: 1.4rem;
+}
+
+.ordersShow__product > h3 {
+  font-size: 1.6rem;
+  margin-bottom: 2.3rem;
+}
+
+@media only screen and (max-width: 64rem) {
+  .ordersShow__container {
+    margin-top: 2.3rem;
+    margin-left: 0rem;
+    width: 100%;
+  }
+  .ordersShow__orderDetails__title {
+    font-size: 0.5rem;
+    margin-bottom: 1.2rem;
+  }
+  .ordersShow__detail__left__info span {
+    font-size: 0.7rem;
+  }
+
+  .ordersShow__detail__left__info > h3 {
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+  }
+
+  .ordersShow__detail__right > h3 {
+    font-size: 0.7rem;
+  }
+
+  .ordersShow__detail__right > div > h3 {
+    font-size: 1.1rem;
+  }
+  .ordersShow__product__title {
+    font-size: 1.9rem;
+  }
+}
+
+@media only screen and (max-width: 48rem) {
+  .ordersShow__container {
+    margin-top: 2.3rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .ordersShow__orderDetails__title {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+  }
+  .ordersShow__detail__left__info span {
+    font-size: 0.6rem;
+  }
+
+  .ordersShow__detail__left__info > h3 {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    margin-bottom: 0.3rem;
+  }
+  .ordersShow__detail__left__info > h4 {
+    font-size: 0.65rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .ordersShow__detail__right > h3 {
+    font-size: 0.7rem;
+  }
+
+  .ordersShow__detail__right > div > h3 {
+    font-size: 0.7rem;
+  }
+  .ordersShow__product__title {
+    font-size: 0.7rem;
+  }
+  .ordersShow__detail__left__info__address {
+    word-break: break-all;
+    white-space: normal;
+    width: 6rem;
+  }
+  .ordersShow__product > h3 {
+    font-size: 0.95rem;
+    margin-bottom: 0.8rem;
+  }
+  .ordersShow__product {
+    padding: 0rem;
+  }
+  .ordersShow__detail__right__subtotal {
+    margin-right: 0.001rem;
+  }
+
+  .ordersShow__detail__right__subtotal > h2 {
+    font-size: 0.7rem;
+  }
+}

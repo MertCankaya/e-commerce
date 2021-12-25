@@ -1,0 +1,80 @@
+.searchbar__search {
+  display: flex;
+}
+
+.searchBar__search__onFocus {
+  display: flex;
+  outline: 0.2rem solid #cf6766;
+}
+
+.searchbar__input {
+  height: 2.6rem;
+  width: 55rem;
+  font-size: 1.3rem;
+}
+
+.searchbar__input:focus {
+  outline: 0.1rem solid;
+}
+
+.searchbar__button {
+  background-color: #cf6766;
+}
+
+.searchbar__button:hover {
+  cursor: pointer;
+}
+
+.searchbar__buttonImage {
+  height: 1.6rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+@media only screen and (max-width: 75rem) {
+  .searchbar__search {
+    height: 80%;
+  }
+  .searchbar__input {
+    height: 2.3rem;
+    width: 25rem;
+  }
+  .searchbar__buttonImage {
+    height: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 92rem) {
+  .searchbar__input {
+    width: 30rem;
+  }
+}
+
+@media only screen and (max-width: 64rem) {
+  .searchbar__search {
+    height: 80%;
+  }
+  .searchbar__input {
+    height: 2rem;
+    width: 25rem;
+  }
+  .searchbar__buttonImage {
+    height: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 48rem) {
+  .searchbar__search {
+    height: 80%;
+    margin-left: 0rem;
+  }
+  .searchbar__input {
+    height: 1.3rem;
+    width: 6.4rem;
+    font-size: .9rem;
+  }
+  .searchbar__buttonImage {
+    height: 0.7rem;
+  }
+}

@@ -1,0 +1,59 @@
+.addComment__info {
+  margin-left: 13%;
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+}
+
+.addComment__input {
+  height: 3.7rem;
+  width: 55%;
+  margin-right: 8%;
+  font-size: 1.7rem;
+  outline: 0.1rem solid #031424;
+}
+
+.addComment__button {
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 1.1rem;
+  border-radius: 0.3rem;
+  background-color: #30415d;
+  color: whitesmoke;
+}
+
+.addComment__button:hover {
+  cursor: pointer;
+  background-color: #031424;
+}
+
+.addComment__button:active {
+  background-color: #30415d;
+}
+
+@media only screen and (max-width: 75rem) {
+  .addComment__input {
+    height: 2.6rem;
+    margin-right: 8%;
+    font-size: 1.4rem;
+  }
+
+  .addComment__button {
+    font-size: 1.2rem;
+    padding: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 48rem) {
+  .addComment__input {
+    height: 1.5rem;
+    margin-right: 8%;
+    font-size: 1rem;
+  }
+
+  .addComment__button {
+      width: 9.6rem;
+      margin-top: .5rem;
+    font-size: 1rem;
+    padding: 0.75rem;
+  }
+}

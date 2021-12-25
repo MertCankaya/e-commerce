@@ -1,0 +1,56 @@
+.comment__container {
+  margin-left: 13%;
+  width: 85%;
+  height: auto;
+  padding: 0.7rem 0;
+  white-space: normal;
+  color: whitesmoke;
+}
+
+.comment__info {
+  width: 80%;
+  background-color: #30415d;
+  padding: 1.8rem;
+  border-radius: 0.4rem;
+}
+
+.comment__name {
+  font-size: 1.7rem;
+  border-bottom: 0.04rem solid;
+  padding-bottom: 0.4rem;
+}
+
+.comment__message {
+  margin-top: 0.6rem;
+  font-size: 1.7rem;
+  word-break: break-all;
+  white-space: normal;
+}
+
+@media only screen and (max-width: 48rem) {
+  .comment__container {
+    margin-left: 8%;
+    width: 92%;
+    margin-top: -2rem;
+    margin-bottom: .75rem;
+    
+  }
+  .comment__info {
+    width: 80%;
+    background-color: #30415d;
+    padding: 1.1rem;
+
+  }
+
+  .comment__name {
+    font-size: 1rem;
+    border-bottom: 0.02rem solid;
+  }
+
+  .comment__message {
+    margin-top: 0.6rem;
+    font-size: 1rem;
+    word-break: break-all;
+    white-space: normal;
+  }
+}

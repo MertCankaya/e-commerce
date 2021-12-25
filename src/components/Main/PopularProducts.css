@@ -1,0 +1,36 @@
+.popularProducts {
+  padding: 1.3rem;
+  background-color: #30415d;
+}
+
+.popularProducts > h2 {
+  color: whitesmoke;
+  margin-bottom: 1.2rem;
+  font-size: 1.6rem;
+}
+
+.popularProducts__data {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 80rem) {
+  .popularProducts {
+    padding: 0.8rem;
+  }
+
+  .popularProducts > h2 {
+    margin-bottom: 0.9rem;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 70rem) {
+  .popularProducts {
+    padding: 0.5rem 0.3rem;
+  }
+  .popularProducts > h2 {
+    margin-bottom: .6rem;
+    font-size: 1rem;
+  }
+}

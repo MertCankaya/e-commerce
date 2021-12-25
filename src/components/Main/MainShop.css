@@ -1,0 +1,22 @@
+.mainShop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: cadetblue;
+  padding: 1.2rem;
+}
+
+.mainShop__mainTitle {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.mainShop__image {
+  height: 17rem;
+}
+
+.mainShop__title {
+  margin-top: 1.4rem;
+  font-size: 1.2rem;
+}

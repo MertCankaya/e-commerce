@@ -1,0 +1,19 @@
+.App__subtotalMessage {
+    display: flex;
+    justify-content: center;
+     font-size: 3rem;
+     margin-top: 15rem;
+}
+
+@media only screen and (max-width: 64rem) {
+    .App__subtotalMessage{
+        font-size: 2rem;
+    }
+  }
+@media only screen and (max-width: 48rem) {
+    .App__subtotalMessage{
+        font-size: 1.2rem;
+    }
+  }
+
+

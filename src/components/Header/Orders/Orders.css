@@ -1,0 +1,41 @@
+.orders__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: #031424;
+  height: 100%;
+  width: 5.4rem;
+  font-size: 1.1rem;
+}
+
+.orders__link:hover {
+  outline: 0.1rem solid whitesmoke;
+  cursor: pointer;
+}
+
+.orders__link:active {
+  background-color: #cf6766;
+}
+
+
+
+@media only screen and (max-width: 64rem) {
+  .orders__link {
+    width: 4rem;
+    height: 100%;
+    font-size: 0.8rem;
+  }
+}
+
+
+@media only screen and (max-width: 48rem) {
+  .orders__link {
+    width: 2rem;
+    height: 80%;
+    font-size: 0.4rem;
+  }
+}
+
+

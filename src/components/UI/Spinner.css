@@ -1,0 +1,38 @@
+.spinner {
+  display: inline-block;
+  width: 15rem;
+  height: 3rem;
+  margin: 17% auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner:after {
+  content: " ";
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  margin: 4rem;
+  border-radius: 50%;
+  border: 0.5rem solid #30415D;
+  border-color: #30415D transparent #30415D transparent;
+  animation: spinner 1s linear infinite;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media only screen and (max-width: 48rem) {
+  .spinner:after{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
