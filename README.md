@@ -18,7 +18,7 @@ https://rapidapi.com/apidojo/api/kohls/
 ![step3](https://user-images.githubusercontent.com/86437425/147395216-ebc14e4b-e3d7-4dac-82a4-a73e3cbb91fd.png)
 ##### Make sure javascript fetch is selected.
 ##### Some products in the main section may not work due to Apikey difference.
-### Images from the web-site
+## Images from the web-site
 
 ![Screenshot from 2021-12-26 01-52-56](https://user-images.githubusercontent.com/86437425/147395031-8f0e38dd-9801-47ac-8f95-0a2592b7a1b4.png)
 ![Screenshot from 2021-12-26 01-53-04](https://user-images.githubusercontent.com/86437425/147395034-ee70e530-b670-4b2d-9aa6-02e3887da859.png)
@@ -31,7 +31,7 @@ https://rapidapi.com/apidojo/api/kohls/
 ![Screenshot from 2021-12-26 01-55-00](https://user-images.githubusercontent.com/86437425/147395047-35fb0653-c50b-4c80-81dc-0dbdbee4a925.png)
 ![Screenshot from 2021-12-26 01-55-07](https://user-images.githubusercontent.com/86437425/147395048-4c5dd243-8385-454a-a976-8d6c3b0e338c.png)
 
-### Topics
+## Topics
 + Responsive Design
 + React Redux
 + Searchbar
@@ -44,5 +44,5 @@ https://rapidapi.com/apidojo/api/kohls/
 + Priority Shipping
 + Deploy the app live on Firebase
 
-### Author
+## Author
 Mert Çankaya
