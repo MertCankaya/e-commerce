@@ -11,11 +11,19 @@ In the project directory, you can run:
 ## To use this project, click on the given link and do the following steps.
 
 https://rapidapi.com/apidojo/api/kohls/
-
+#### Click this link and subscribe to Basic with your own account.
 ![step1](https://user-images.githubusercontent.com/86437425/147394771-54ca027a-5c0b-4beb-bc33-e573194127d7.png)
 ![step2](https://user-images.githubusercontent.com/86437425/147394772-c9a51580-7854-47b8-898c-856e9a705425.png)
+#### Click the get product/list method on the left and select Javascript(fetch) on the right.
+#### Copy your own apikey as in the picture.
 ![step3](https://user-images.githubusercontent.com/86437425/147395216-ebc14e4b-e3d7-4dac-82a4-a73e3cbb91fd.png)
-##### Make sure javascript fetch is selected.
+#### Paste your own Apikey in the places indicated below.
+![ApikeyReplace1](https://user-images.githubusercontent.com/86437425/147405355-c3d537ab-6c1c-41a0-b955-f4477b684773.png)
+![ApikeyReplace2](https://user-images.githubusercontent.com/86437425/147405376-0ad45a84-1e44-4004-925e-e0734b95c96a.png)
+![ApikeyReplace3](https://user-images.githubusercontent.com/86437425/147405380-11133e71-ef6f-400a-a3bf-a3a47642bc9b.png)
+![ApikeyReplace4](https://user-images.githubusercontent.com/86437425/147405383-72541152-ba81-4197-98c3-a347677a63d5.png)
+#### You can now use the site.
+
 ##### Some products in the main section may not work due to Apikey difference.
 ## Images from the web-site
 
