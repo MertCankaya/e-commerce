@@ -14,7 +14,7 @@ https://rapidapi.com/apidojo/api/kohls/
 #### Click this link and subscribe to Basic with your own account.
 ![step1](https://user-images.githubusercontent.com/86437425/147394771-54ca027a-5c0b-4beb-bc33-e573194127d7.png)
 ![step2](https://user-images.githubusercontent.com/86437425/147394772-c9a51580-7854-47b8-898c-856e9a705425.png)
-#### Click the get product/list method on the left and select Javascript(fetch) on the right.
+#### Click the Get products/list method on the left and select Javascript(fetch) on the right.
 #### Copy your own apikey as in the picture.
 ![step3](https://user-images.githubusercontent.com/86437425/147395216-ebc14e4b-e3d7-4dac-82a4-a73e3cbb91fd.png)
 #### Paste your own Apikey in the places indicated below.
