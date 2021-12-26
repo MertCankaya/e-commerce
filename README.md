@@ -1,6 +1,5 @@
 # E-Commerce Website with ReactJS
-It is an app made by designing an e-commerce web-site. You can add and delete products to the cart, add special comments to all products, get discounts on products using the discount15 promotion code, see the products you have purchased before with their details and you can get fast shipping service with priority shipping. <a href="https://rapidapi.com/apidojo/api/kohls/">Kohls Api</a> is used on this site.
-
+It is an app made by designing an e-commerce web-site. You can add and delete products to the cart, search a product, login with your Google authentication, add special comments to all products, get discounts on products using the discount15 promotion code, see the products you have purchased before with their details and you can get fast shipping service with priority shipping. Thanks to <a href="https://rapidapi.com/apidojo/api/kohls/">Kohls Api</a> for the Api service.
 ## Available Scripts
 
 In the project directory, you can run:
